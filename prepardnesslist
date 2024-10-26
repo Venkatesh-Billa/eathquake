@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthquake Preparedness</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url(quakesafety.jpg);
+            background-size: auto;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: rebeccapurple;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .alert {
+            background-color:goldenrod ;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            border-left: 5px solid #f57c00;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            color: palevioletred;
+        }
+        .content ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .content ul li {
+            background: #f9f9f9;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 5px solid rosybrown;
+        }
+        .content ul li strong {
+            color: blueviolet;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: darkgoldenrod;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .btn:hover {
+            background-color: hotpink;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Earthquake Preparedness Guide</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="alert">
+            <strong>Important:</strong> Earthquakes can strike without warning.Prepare now to protect yourself, your family, and your property.
+        </div>
+
+        <div class="content">
+            <h2>Before an Earthquake: How to Prepare</h2>
+            <ul>
+                <li><strong>Secure Heavy Objects:</strong> Anchor heavy furniture, appliances, and shelves to walls to prevent tipping or falling.</li>
+                <li><strong>Practice "Drop, Cover, and Hold On":</strong> Conduct regular drills so everyone knows what to do during an earthquake.</li>
+                <li><strong>Identify Safe Spots:</strong> Know where to go during an earthquake, such as under sturdy furniture or against an interior wall.</li>
+                <li><strong>Prepare an Emergency Kit:</strong> Include water, food, first aid supplies, flashlight, batteries, and important documents in your kit.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>During an Earthquake:What to Do</h2>
+            <ul>
+                <li><strong>Drop, Cover, and Hold On:</strong> Drop to your hands and knees, cover your head and neck, and hold on until the shaking stops.</li>
+                <li><strong>Avoid Windows:</strong> Stay away from windows, glass, and anything that could shatter or fall.</li>
+                <li><strong>If Outdoors:</strong> Move to an open area away from buildings, trees, and power lines.</li>
+                <li><strong>If in a Vehicle:</strong> Pull over to a safe area, away from overpasses, and remain in the vehicle until the shaking stops.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>After an Earthquake: Stay Safe</h2>
+            <ul>
+                <li><strong>Check for Injuries:</strong> Provide first aid if needed and call for emergency assistance if necessary.</li>
+                <li><strong>Inspect for Damage:</strong> Check your home for structural damage, gas leaks, or water line breaks, and evacuate if it's unsafe.</li>
+                <li><strong>Be Prepared for Aftershocks:</strong> Aftershocks may follow the main earthquake, so stay alert and prepared to "Drop, Cover, and Hold On" again.</li>
+                <li><strong>Stay Informed:</strong> Listen to emergency broadcasts for updates on conditions and safety instructions.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Emergency Kit Checklist</h2>
+            <ul>
+                <li>Water (3-day supply for each person)</li>
+                <li>Non-perishable food (3-day supply)</li>
+                <li>First aid kit and essential medications</li>
+                <li>Flashlight and extra batteries</li>
+                <li>Important documents (IDs, insurance, etc.) in a waterproof bag</li>
+                <li>Blankets, extra clothing, and sturdy shoes</li>
+                <li>Whistle to signal for help</li>
+                <li>Mobile phone and portable charger</li>
+            </ul>
+            <a href="#" class="btn">Learn More About Earthquake Safety</a>
+            <a href="#" class="btn">Find Nearest Emergency Shelter</a>
+        </div>
+
+        <footer>
+            <p>@2024 Disaster Management System.All Rights Reserved By Dev Squad!!</p>
+            <p><a href="#" class="btn">Privacy Policy</a> | <a href="#" class="btn">Terms of Use</a> | <a href="#" class="btn">Contact Us</a></p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
